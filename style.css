@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    backdrop-filter: blur(20px);
+    background:rgba(0,0,0,0.8);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+body{
+    color: white;
+    background-color: orangered;
+}
+.hone{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+@keyframes h{
+    from{
+        transform: rotate(720deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.logo{
+    animation: h 2s 5s forwards;
+}
+.strelka{
+    width: 15px;
+    border-radius: 10px;
+}
+.ma{
+    margin-top: 450px;
+    margin-left: 300px;
+    width: 600px;
+    animation: m 2s 0.5s forwards;
+    opacity: 0;
+}
+@keyframes m{
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+b{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+button{
+    border-radius: 25px;
+    border: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all 1s;
+}
+main{
+    margin-top: 600px;
+}
+.kone{
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.ktwo{
+    margin-bottom: 100px;
+    margin-left: 1200px;
+}
+.kthree{
+    margin-left: 400px;
+    width: 500px;
+    margin-bottom: 100px;
+}
+.kfour{
+    margin-left: 1200px;
+    margin-bottom: 100px;
+}
+.kfive{
+    margin-left: 400px;
+    margin-bottom: 300px;
+}
+.i{
+    width: 500px;
+    border-radius: 15px; 
+    transition: all 1s;
+
+}
+.i:hover{
+    scale: 110%;
+    transition: all 1s
+}
+h1{
+    margin-bottom: 20px;
+}
+.mainone{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.h1{
+    margin-bottom: 200px;
+    margin-top: 30px;
+    font-size: 45px;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+    transition: all 1s;
+}
+.f{
+    transition: all 1s;
+}
+.f:hover{
+    border-bottom: 1px solid white;
+    transition: all 1s;
+}
+.a{
+    width: 100px;
+    border-radius: 25px;
+}
+.maintwo{
+    background-color: white;
+    width: 100%;
+    padding: 100px;
+}
+.z{
+    color: black;
+    font-size: 40px;
+}
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.t{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+footer{
+    background-color: black;
+    padding: 200px 200px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fone{
+    width: 200px;
+}
+.ftwo{
+    width: 200px;
+}.fthree{
+    width: 200px;
+}.ffour{
+    width: 200px;
+}
+.s{
+    margin-top: 200px;
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+.l{
+    font-size: 19px;
+}
+hr{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.w{
+    display: flex;
+    justify-content: space-between;
+}
+.y{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
