@@ -78,6 +78,7 @@ button{
 }
 main{
     margin-top: 600px;
+    width: 100%;
 }
 .kone{
     margin-left: 400px;
@@ -205,4 +206,82 @@ hr{
 .y{
     margin-top: 20px;
     margin-bottom: 100px;
+}
+@media(max-width:700px){
+    .header{
+        width: 320px;
+        display: flex;
+        align-items: center;
+    }
+    video{
+        width: 320px;
+    }
+    .ma{
+        display: none;
+    }
+    main{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .kone{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 40px;
+    } 
+    .ktwo{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 40px;
+    } 
+    .kthree{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 40px;
+    } 
+    .kfour{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 40px;
+    } 
+    .kfive{
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 40px;
+    } 
+    .i{
+        width: 300px;
+        margin-top: 20px;
+    }  
+    .mainone{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .h1{
+        margin-bottom: 50px;
+    }
+    button{
+        font-size: 15px;
+    }
+    .t{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width: 320px;
+        padding: 100px 10px;
+    }
+    .w{
+        display: flex;
+        flex-direction: column;
+    }
+    .y{
+        margin-top: 0px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
 }
